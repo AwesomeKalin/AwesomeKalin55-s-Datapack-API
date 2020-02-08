@@ -1,0 +1,14 @@
+{
+    "__comment": "Made for AwesomeKalin55s Datapack API. This makes it possible for the iron pickaxe to be given with a command, but have no advancement given",
+    "criteria": {
+        "ironPick": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:iron_pickaxe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "ak55-api:iron_pick"
+    }
+}
